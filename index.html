@@ -1,13 +1,29 @@
-
 <!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML>
-   <HEAD>
-      <TITLE>
-         An Orkun Story
-      </TITLE>
-   </HEAD>
+<HTML ng-app="orkunModule" ng-controller="orkunCtrl">
+
+<HEAD>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://use.fontawesome.com/9166ccdeff.js"></script>
+    <script src="app.js"></script>
+    <TITLE>
+        {{firstName + " " + lastName}}
+    </TITLE>
+</HEAD>
+
 <BODY>
-   <H1>Hi</H1>
-   <P>I'm Orkun and this is my website.</P> 
+    <div class="jumbotron text-center background-color:black">
+        <h1>{{firstName + " " + lastName}}</h1>
+        <div id="links" class="center button-group">
+            <a href="{{email}}"><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="{{twitter}}"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
+        </div>
+    </div>
 </BODY>
+
 </HTML>
