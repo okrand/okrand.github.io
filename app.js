@@ -6,4 +6,5 @@ app.controller("orkunCtrl", function ($scope) {
     $scope.twitter = "https://twitter.com/Krando67";
     $scope.linkedin = "https://www.linkedin.com/in/orkun-krand/";
     $scope.github = "https://github.com/okrand";
+    $scope.youtube = "https://www.youtube.com/okmotorcu";
 });
