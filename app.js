@@ -7,5 +7,5 @@ app.controller("orkunCtrl", function ($scope) {
     $scope.linkedin = "https://www.linkedin.com/in/orkun-krand/";
     $scope.github = "https://github.com/okrand";
     $scope.youtube = "https://www.youtube.com/okmotorcu";
-    $scope.resume = "#/Resume_Orkun_Krand.pdf";
+    $scope.resume = "okrand.github.io/Resume_Orkun_Krand.pdf";
 });
