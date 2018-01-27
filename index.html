@@ -2,13 +2,13 @@
 <HTML ng-app="orkunModule" ng-controller="orkunCtrl">
 
 <HEAD>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://use.fontawesome.com/9166ccdeff.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <TITLE>
         {{firstName + " " + lastName}}
     </TITLE>
@@ -23,7 +23,12 @@
             <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
             <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
             <a href="{{youtube}}"><i class="fa fa-youtube-play fa-2x"></i></a>
-            <a href="{{resume}}"><i class="fa fa-file-text fa-2x"></i></a>
+            <a href="{{resume}}">
+                <span>
+                    <i class="fa fa-file-text fa-2x"></i>
+                    <i class="fa fa-sub fa-user fa-2x"></i>
+                </span>
+            </a>
 
         </div>
     </div>
