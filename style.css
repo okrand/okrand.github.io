@@ -1,3 +1,7 @@
+.fa {
+    color: #991920;
+}
+
 .fa-sub {
     position: relative;
     left: -.5em;
@@ -6,16 +10,22 @@
     text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white; // optional contrast
 }
 
+
 .jumbo-h1 {
     font-size: 5em;
     background-color: white;
 }
 
 .intro {
-    padding-left: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 1em;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.intro a {
+    color: #991920;
 }
 
 .responsive {
