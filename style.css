@@ -5,3 +5,20 @@
     vertical-align: -.25em;
     text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white; // optional contrast
 }
+
+.jumbo-h1 {
+    font-size: 5em;
+    background-color: white;
+}
+
+.intro {
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.responsive {
+    width: auto;
+    height: 100%;
+}

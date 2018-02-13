@@ -3,6 +3,7 @@
 
 <HEAD>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -15,21 +16,36 @@
 </HEAD>
 
 <BODY>
-    <div class="jumbotron text-center background-color:black">
-        <h1>{{firstName + " " + lastName}}</h1>
-        <div id="links" class="center button-group">
-            <a href="{{email}}"><i class="fa fa-envelope fa-2x"></i></a>
-            <a href="{{twitter}}"><i class="fa fa-twitter fa-2x"></i></a>
-            <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
-            <a href="{{youtube}}"><i class="fa fa-youtube-play fa-2x"></i></a>
-            <a href="{{resume}}">
+    <div class="row">
+        <div class="col-md-7">
+            <div class=" text-center">
+                <h1 class="jumbo-h1">{{firstName + " " + lastName}}</h1>
+                <div id="links" class="center button-group">
+                    <a href="{{email}}"><i class="fa fa-envelope fa-2x"></i></a>
+                    <a href="{{twitter}}"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
+                    <a href="{{youtube}}"><i class="fa fa-youtube-play fa-2x"></i></a>
+                    <a href="{{resume}}">
                 <span>
                     <i class="fa fa-file-text fa-2x"></i>
                     <i class="fa fa-sub fa-user fa-2x"></i>
                 </span>
             </a>
+                </div>
+            </div>
+            <div class="intro">
+                <p>Hi! I'm a <strong>Computer Science Masters</strong> student at Old Dominion University</p>
+                <p>I work as a <strong>Full-Stack Developer</strong> on campus, utilizing technologies like <strong>JavaScript, PHP, jQuery, SQL, NoSQL.</strong></p>
 
+                <p> I have also worked on projects for various classes including a Stack-Overflow clone and a <strong>watchOS (iOS) app</strong> that collects accelerometer and gyroscope data. I'm currently working on an <strong>Android app</strong> for finding friends based on activities.</p>
+                <p> I graduate in May 2018 and am <strong>actively seeking a software developer position</strong>.</p>
+
+                <p>Other than programming, I enjoy going on trips on my motorcycle. I also fix motorcycles as a side gig. I make motorcycle videos on YouTube where I have over 1000 subscribers. </p>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <img src="pictures/profile.jpg" class="responsive" alt="profile">
         </div>
     </div>
 </BODY>
