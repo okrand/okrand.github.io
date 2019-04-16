@@ -1,4 +1,4 @@
-var app = angular.module('orkunModule', []);
+const app = angular.module('orkunModule', []);
 app.controller("orkunCtrl", function ($scope) {
     $scope.firstName = "Orkun";
     $scope.lastName = "Krand";
