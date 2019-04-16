@@ -15,33 +15,28 @@
     </TITLE>
 </HEAD>
 
-<BODY ng-cloak>
-    <div class="row">
-        <div class="col-md-7">
-            <div class=" text-center">
-                <h1 class="jumbo-h1">{{firstName + " " + lastName}}</h1>
-                <div id="links" class="center button-group">
-                    <a href="{{email}}"><i class="fa fa-envelope fa-2x"></i></a>
-                    <a href="{{twitter}}"><i class="fa fa-twitter fa-2x"></i></a>
-                    <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
-                    <a href="{{youtube}}"><i class="fa fa-youtube-play fa-2x"></i></a>
-                </div>
-            </div>
-            <div class="intro">
-                <p>Hi! I'm a <strong>Computer Science Masters</strong> student at Old Dominion University</p>
-                <p>I have worked as a <strong>Full-Stack Developer</strong> on campus, utilizing technologies like <strong>JavaScript, PHP, jQuery, SQL, NoSQL until April 2018.</strong></p>
-
-                <p> I have worked on projects for various classes including a <a href="{{highside}}"><strong>Stack-Overflow clone</strong></a> and a <a href="{{triathlon}}"><strong>watchOS (iOS) app</strong></a> that collects accelerometer and gyroscope data. I worked on an <a href="{{herdr}}"><strong>Android app</strong></a> for finding friends based on activities.</p>
-                <p> I graduate in May 2018 and am <strong>actively seeking a software developer position in Atlanta, GA</strong>. Check out my <a href="{{resume}}"><strong>resume</strong></a>!</p>
-
-                <p>Other than programming, I enjoy going on trips on my motorcycle. I also fix motorcycles as a side gig. I make motorcycle videos on <a href="{{youtube}}"><strong>YouTube</strong></a> where I have over 1200 subscribers. </p>
+<BODY ng-cloak class="all">
+    <div class="left">
+        <div class="text-center">
+            <h1 class="jumbo-h1">{{firstName + " " + lastName}}</h1>
+            <div id="links" class="center button-group">
+                <a href="{{email}}"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="{{linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                <a href="{{github}}"><i class="fa fa-github fa-2x"></i></a>
+                <a href="{{youtube}}"><i class="fa fa-youtube-play fa-2x"></i></a>
             </div>
         </div>
-        <div class="col-md-5">
-            <img src="pictures/profile.jpg" class="responsive" alt="profile">
+        <div class="intro">
+            <p>Hi! I'm a web developer with a <strong>MS in Computer Science</strong> from Old Dominion University.</p>
+            <p>I spent the past year working as an <strong>Associate Software Developer</strong> at Gather Technologies, utilizing <strong>TypeScript, AngularJS, ReactJS, Jest, RethinkDB.</strong></p>
+
+            <p> Other than web development, I have worked on various projects such as a <a href="{{triathlon}}"><strong>watchOS (iOS) app</strong></a> that collects accelerometer and gyroscope data. I also worked on an <a href="{{herdr}}"><strong>Android app</strong></a> for finding friends based on activities.</p>
+            <p> I am <strong>actively seeking a software developer position in Atlanta, GA</strong>. Check out my <a href="{{resume}}"><strong>resume</strong></a>!</p>
+
+            <p>When not working on programming, I enjoy going on trips on my motorcycle. I also make motorcycle videos on <a href="{{youtube}}"><strong>YouTube</strong></a> where I have over 1500 subscribers. </p>
         </div>
     </div>
+    <img src="pictures/profile.jpg" class="right" alt="profile">
 </BODY>
 
 </HTML>
