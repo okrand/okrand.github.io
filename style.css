@@ -2,24 +2,13 @@
     color: #991920;
 }
 
-.fa-sub {
-    position: relative;
-    left: -.5em;
-    width: .2em;
-    vertical-align: -.25em;
-    text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white;
-}
-
-
 .jumbo-h1 {
     font-size: 5em;
-    background-color: white;
 }
 
 .intro {
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 1em;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,19 +17,18 @@
     color: #991920;
 }
 
-.left {
-    float: left;
-    width: 60%;
-}
-
-.right {
-    float: "right";
-    width: auto;
-    height: 100%
+.pic{
+    background-image: url("pictures/profile2.jpg");
+    background-size: cover;
+    height: 100%;
 }
 
 .clearfix{
     clear:both
+}
+
+* {
+        overflow: hidden;
 }
 
 [ng\:cloak],
